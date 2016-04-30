@@ -5,10 +5,12 @@ body {
     font-size: 18px;
     line-height: 150%;
     font-family: "Georgia",Times, Times New Roman,serif;
-    color: #333333;
+    color: #777777;
 }
 header {
-    background: #4aaaa5;
+    background: #ffffff;
+    border-color: #cccccc;
+    border-width: 2px 10px 4px 20px;
 }
 h1 {
     background: #4aaaa5;
@@ -21,40 +23,64 @@ h1 {
 }
 
 h5 {
-    background: #4aaaa5;
+    color: #4aaaa5;
 }
 
 h6 {
-    background: #4aaaa5;
+    color: #4aaaa5;
 }
 
 a {
     color: #d21034;
 }
+
+}
 .container {
     width: 1024px;
     margin: 0 auto;
 }
+
 #aboutme,
 #connect,
-#bio-image {
-    float: left;
-}
+#bio-image, 
 #aboutme {
     width: 70%;
+    float: left;
 }
 #connect {
     width: 30%;
+    float: left;
 }
 #bio-image {
     width: 200px;
     height: 200px;
     margin-right: 20px;
+    float: left;
 }
 
-footer
+
+.mainlinks
+    {
+    text-align:right;
+    margin-top:3px;
+    margin-right:10px;
+    margin-bottom:0px;
+    padding:0px;
+    float: right;
+    }
+
+ a.links:link {
+     color: #777777; text-decoration: none;
+    text-align:center;
+    margin-left:8px;
+    margin-top:300px;
+    margin-bottom:0px;
+    padding:2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    }
+
+    footer
 {
-    color: #666666;
-}
-
+    color: #777777;
 }
