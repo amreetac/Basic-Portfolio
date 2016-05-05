@@ -57,6 +57,14 @@ a {
     background-color:#ffffff;
 }
 
+#port {
+    width: 45%;
+    margin-left: 10%;
+    border-style: groove;
+    padding: 20px;
+    background-color:#ffffff;
+}
+
 .form {
 width: 30%;
     margin-left: 10%;
@@ -80,20 +88,26 @@ width: 30%;
     float: left;
 }
 
-.imgborder {
-    width: 200px;
-    height: 200px;
-    position: relative;
-}
 .in-imgborder {
     width: 200px;
-    height: 150px;
-    position: relative;
+    height: 200px;
+    position: absolute;
     top: 4px;
     left: 4px;
-    border-bottom: 40px solid red;
+    border-bottom: 40px solid #4aaaa5;
 }
 
+
+
+
+.hangman-title {
+  position: relative; 
+  text-align: center;
+    top: 180px;
+    left: 150px
+  font-size: 18px;
+  color: white;
+}
 
 }
 .picture-border {
@@ -116,8 +130,8 @@ width: 30%;
 /*    border-bottom: 2px solid #cccccc;
 */
     float: right;
-    margin-top: 20px;
-    margin-right: 20px;
+    margin-top: 40px;
+    margin-right: 40px;
     display: inline-block;
     }
 
