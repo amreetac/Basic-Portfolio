@@ -15,7 +15,7 @@ header {
 h5 {
     color: #4aaaa5;
     border-bottom: 1px solid black;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 h6 {
@@ -59,8 +59,10 @@ a {
 
 #port {
     width: 45%;
+    height: 800px;
     margin-left: 10%;
-    padding: 20px;
+    margin-bottom: 20px;
+    padding: 50px;
     background-color:#ffffff;
 }
 
@@ -90,28 +92,62 @@ a {
     float: left;
 }
 
-.in-imgborder {
-    width: 200px;
-    height: 200px;
+
+.image-box-left{
+    float: left;
+    height: 220px;
+    width: 279px;
+    margin: 35px 40px 0px 0px;
+}
+
+.image-box-right{
+    float: left;
+    height: 220px;
+    width: 279px;
+    margin: 35px 0px 0px 0px;
+}
+
+.image-portfolio{
     position: absolute;
-    top: 4px;
-    left: 4px;
-    border-bottom: 40px solid #4aaaa5;
 }
 
-
-
-
-.hangman-title {
-  position: relative; 
-  text-align: center;
-    top: 180px;
-    left: 150px
-  font-size: 18px;
-  color: white;
+.image-bar{
+    position: relative;
+    top: 130px;
+    background-color: #4aaaa5 ;
+    color: #ffffff ;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    width: 64.5%;
+    border-bottom-width: 100px;
 }
 
+/*
+.image-box-left {
+    float: left;
 }
+
+.image-portfolio {
+    position: absolute;
+}
+
+.image-bar{
+    display: inline-block;
+    background: #4aaaa5;
+    padding: 12px;
+    color: #eee;
+    margin-left:10%;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 0px;
+    position: relative;
+
+}
+*/
+
 .picture-border {
     display: inline-block;
     background-color: red;
