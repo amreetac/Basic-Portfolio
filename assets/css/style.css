@@ -83,6 +83,7 @@ a:hover {
     float: left;
     width: 12.5%;
     padding: 20px;
+    padding-bottom: 30px;
 }
 #aboutme {
     width: 45%;
@@ -90,6 +91,10 @@ a:hover {
     margin-bottom: 20px;
     padding: 50px;
     background-color:#ffffff;
+
+    /*attempt to put space between heading
+    and border on below line */
+    padding-bottom: 30px;
 }
 
 #port {
@@ -123,6 +128,7 @@ input[type=submit] {
     margin-bottom: 20px;
     padding: 20px;
     background-color:#ffffff;
+    padding-bottom: 30px;
 }
 #bio-image {
     width: 200px;
