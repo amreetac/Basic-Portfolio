@@ -128,7 +128,7 @@ input[type=submit] {
     margin-bottom: 20px;
     padding: 20px;
     background-color:#ffffff;
-    padding-bottom: 30px;
+    line-height: 1.5;
 }
 #bio-image {
     width: 200px;
